@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+html{
+	font-family: "Arial";
+	font-size: 16px;
+}
+#Home ul li a {
+	color: black;
+}
+#Pelis {
+	background-image: url(img/fondo.jpg);
+	background-repeat: no-repeat;
+}
+#Pelis ul li a {
+	color: black;
+}
+#Terror {
+	background-image: url(img/fondo2.jpg);
+	background-repeat: no-repeat;
+	color: white;
+}
+#Terror ul li a {
+	color: white;
+}
+#Desierto {
+	background-image: url(img/fondo3.jpg);
+	background-repeat: no-repeat;
+}
+#Desierto ul li a {
+	color: black;
+}
+#cabecera {
+	text-align: center;
+}
+#botonera {
+	width: 80%;
+	text-align: center;
+	margin-bottom: 5%;
+
+}
+#botonera ul {
+	list-style-type: none;
+}
+#botonera ul li {
+	float: right;
+	margin-left: 9%;
+}
+#botonera ul li a {
+	text-decoration: none;
+
+}
+#cuerpo {
+	margin: 5%;
+	width: 80%;
+	text-align: center;
+}
+
+.peliculas{
+	margin-left: 9%;
+	float: left;
+	width: 22%;
+	height: 300px;
+	max-height: 300px;
+	padding-right: 30px;
+	/*border: 1px red solid;*/
+}
+.Filmografia{
+	text-align: center;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px red solid;*/
+}
+.img-pelis{
+	margin: auto;
+	text-align: center;
+}
+.img-pelis img{
+	width: 70%;
+	margin-top:5%; 
+}
+.img-pelis img:hover{
+	transform: scale(1.5,1.5);
+	transition-delay: 0.5s;
+}
+.perfil img{
+	width: 30%;
+	float: left;
+	padding-right: 2%;
+
+}
+.biografia{
+	text-align: left;
+	margin-left: 5%;
+}
