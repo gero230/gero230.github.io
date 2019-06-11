@@ -4,6 +4,7 @@ html{
 	font-family: "Arial";
 	font-size: 16px;
 }
+
 #Home ul li a {
 	color: black;
 }
@@ -54,7 +55,19 @@ html{
 	width: 80%;
 	text-align: center;
 }
+.noticias{
+	margin: 5%; 
+}
+#noticias1{
+	float: right;
+	padding: 2%;
 
+}
+.noticias img{
+	padding-left: 1%;
+	width: 20%;
+	float: left;
+}
 .peliculas{
 	margin-left: 9%;
 	float: left;
@@ -88,7 +101,9 @@ html{
 	width: 30%;
 	float: left;
 	padding-right: 2%;
-
+}
+h2{
+	text-align: center;
 }
 .biografia{
 	text-align: left;
