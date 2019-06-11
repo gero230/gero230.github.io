@@ -56,17 +56,18 @@ html{
 	text-align: center;
 }
 .noticias{
-	margin: 5%; 
-}
-#noticias1{
-	float: right;
-	padding: 2%;
+	margin-top: 5%;
 
 }
+#noticia1{
+	width: 90%;
+	
+}
 .noticias img{
-	padding-left: 1%;
-	width: 20%;
 	float: left;
+	width: 20%;
+	margin-left: 10%;
+	margin-right: 2%; 
 }
 .peliculas{
 	margin-left: 9%;
