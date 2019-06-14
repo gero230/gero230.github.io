@@ -53,7 +53,6 @@ html{
 	margin: 5%;
 	width: 80%;
 	text-align: center;
-
 }
 #contenedor {
 	background-color: white;
@@ -104,6 +103,15 @@ html{
 	transform: scale(1.5,1.5);
 	transition-delay: 0.5s;
 }
+#videos{
+	float: left;
+	margin-left: 8%;
+}
+#videos p{
+	color: black;
+
+	list-style-type: none;
+}
 .perfil img{
 	width: 30%;
 	float: left;
@@ -120,6 +128,7 @@ h2{
 	text-align: left;
 	margin-left: 5%;
 }
+
 /*@media(max-width:778px){
 	#cuerpo{
 	width: 48%;
