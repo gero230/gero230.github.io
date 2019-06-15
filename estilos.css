@@ -61,12 +61,11 @@ html{
 	padding: 1px;
 }
 .noticias{
-	margin-top: 5%;
-
+	margin-top: 3%;
 }
+
 #noticia1{
 	width: 90%;
-	
 }
 .noticias img{
 	float: left;
@@ -104,13 +103,13 @@ html{
 	transition-delay: 0.5s;
 }
 #videos{
+	padding: 2%;
+	background-color: white;
 	float: left;
 	margin-left: 8%;
 }
-#videos p{
+#videos a{
 	color: black;
-
-	list-style-type: none;
 }
 .perfil img{
 	width: 30%;
