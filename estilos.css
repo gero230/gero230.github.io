@@ -11,6 +11,7 @@ html{
 #Pelis {
 	background-image: url(img/fondo.jpg);
 	background-repeat: no-repeat;
+
 }
 #Pelis ul li a {
 	color: black;
@@ -51,6 +52,7 @@ html{
 }
 #cuerpo {
 	margin: 5%;
+	padding-left: 10%;
 	width: 80%;
 	text-align: center;
 }
@@ -65,7 +67,7 @@ html{
 }
 
 #noticia1{
-	width: 90%;
+	width: 95%;
 }
 #noticia3{
 	padding-bottom: 5%;
@@ -75,6 +77,12 @@ html{
 	width: 20%;
 	margin-left: 10%;
 	margin-right: 2%; 
+}
+h3{	
+	width: 90%;	 
+}
+.noticias p{
+	width: 90%;	
 }
 .peliculas{
 	margin-left: 9%;
@@ -91,19 +99,19 @@ html{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*border: 1px red solid;*/
+	
 }
 .img-pelis{
 	margin: auto;
 	text-align: center;
 }
 .img-pelis img{
-	width: 70%;
+	width: 80%;
 	margin-top:5%; 
 }
 .img-pelis img:hover{
 	transform: scale(1.5,1.5);
-	transition-delay: 0.5s;
+	transition-duration: 1s;
 }
 #videos{
 	padding: 2%;
@@ -130,15 +138,24 @@ h2{
 	margin-left: 5%;
 }
 
-/*@media(max-width:778px){
-	#cuerpo{
-	width: 48%;
+@media(min-width: 1201px) {
 
-	}
 }
-@media(max-width:480px){
-	#cuerpo {
-		width:98%;
-	}
-}*/
+
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+		
+}
+
+
+@media (min-width: 600px) and (max-width: 990px) {
+
+	#Home,#Pelis,#Terror,#Desierto {width: 100%;}
+}
+
+@media (min-width: 0px) and (max-width: 599px) {
+
+	#Home,#Pelis,#Terror,#Desierto {width: 100%}
+}
+
 
