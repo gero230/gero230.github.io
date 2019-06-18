@@ -7,7 +7,7 @@ html{
 
 @keyframes bio{
 	0%{opacity:0;}
-	100%{opacity: 100%;}
+	100%{opacity:1;}
 }
 
  @keyframes musica {
@@ -67,7 +67,7 @@ html{
 }
 #contenedor {
 	background-color: white;
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: auto;
 	padding: 1px;
 }
@@ -76,21 +76,24 @@ html{
 }
 
 #noticia1{
-	width: 100%;
+	width: 95%;
 	animation: bio 1s linear 1;
 }
 #noticia2{
+	opacity: 0;
+	transform: translateX(-10px);
 	width: 100%;
-	animation: bio 1s linear 1;
+	animation: bio 1s linear 1s 1 forwards;
 }
-
 #noticia3{
+	opacity: 0;
+	transform: translateX(-10px);
 	padding-bottom: 5%;
-	animation: bio 1s linear 1;
+	animation: bio 1s linear 2s 1 forwards;
 }
 .noticias img{
 	float: left;
-	width: 22%;
+	width: 20%;
 	margin-left: 10%;
 	margin-right: 2%; 
 }
