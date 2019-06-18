@@ -167,18 +167,33 @@ h2{
 
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-		
+		body {background: red;}
 }
 
 
 @media (min-width: 600px) and (max-width: 990px) {
-
-	#Home,#Pelis,#Terror,#Desierto {width: 100%;}
+	body {
+		background: blue;
+		}
+	#Desierto{
+		flex-wrap: wrap;
+		}
+	.peliculas{
+		width: 40%;
+	}
 }
 
 @media (min-width: 0px) and (max-width: 599px) {
-
-	#Home,#Pelis,#Terror,#Desierto {width: 100%}
+	body {
+		background: green;
+		
+	}
+	#Desierto{
+		flex-wrap: wrap;
+	}
+	.peliculas{
+		width: 100%;
+	}
 }
 
 
