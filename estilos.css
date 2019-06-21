@@ -21,6 +21,7 @@ html{
 #Pelis {
 	background-image: url(img/fondo.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 #Pelis ul li a {
@@ -30,6 +31,7 @@ html{
 	background-image: url(img/fondo2.jpg);
 	background-repeat: no-repeat;
 	color: white;
+	background-size: cover;
 }
 #Terror ul li a {
 	color: white;
@@ -37,6 +39,7 @@ html{
 #Desierto {
 	background-image: url(img/fondo3.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 #Desierto ul li a {
 	color: black;
@@ -162,38 +165,37 @@ h2{
 }
 
 @media(min-width: 1201px) {
+	.noticias{
+			width: 100%;
+		}
 
 }
 
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-		body {background: red;}
+		.peliculas{
+			width: 24%;
+	}
 }
 
 
 @media (min-width: 600px) and (max-width: 990px) {
-	body {
-		background: blue;
-		}
 	#Desierto{
 		flex-wrap: wrap;
 		}
 	.peliculas{
-		width: 40%;
+		width: 35%;
 	}
 }
 
 @media (min-width: 0px) and (max-width: 599px) {
-	body {
-		background: green;
-		
-	}
 	#Desierto{
 		flex-wrap: wrap;
 	}
 	.peliculas{
-		width: 100%;
+		width: 60%;
 	}
+	
 }
 
 
