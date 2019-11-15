@@ -2,7 +2,7 @@
 
 html{
 	font-family: "Arial";
-	font-size: 16px;
+	font-size: 15px;
 }
 
 @keyframes bio{
@@ -40,10 +40,18 @@ html{
 	background-image: url(img/fondo3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 #Desierto ul li a {
-	color: black;
+	color: white;
 }
+#mail {
+	margin-left: 15px;
+}
+#Comentario {
+	margin-right: 25px;
+}
+
 #cabecera {
 	text-align: center;
 }
@@ -68,45 +76,51 @@ html{
 	width: 80%;
 	text-align: center;
 }
-#contenedor {
-	background-color: white;
-	max-width: 1100px;
-	margin: auto;
-	padding: 1px;
-}
 .noticias{
-	margin-top: 3%;
+	padding: 3% 6%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	clear: both;
 }
-
-#noticia1{
-	width: 95%;
-	animation: bio 1s linear 1;
+.noticias .img-noticia{
+	float: left;
+	width: 18%;
 }
-#noticia2{
-	opacity: 0;
-	transform: translateX(-10px);
-	width: 100%;
-	animation: bio 1s linear 1s 1 forwards;
-}
-#noticia3{
-	opacity: 0;
-	transform: translateX(-10px);
-	padding-bottom: 5%;
-	animation: bio 1s linear 2s 1 forwards;
+.noticias .contenido{
+	width: 70%;
+	float: left;
 }
 .noticias img{
-	float: left;
-	width: 20%;
-	margin-left: 10%;
-	margin-right: 2%; 
+	margin-left: 40%;
+	margin-right: 8%;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
-h3{	
-	width: 90%;	 
+.noticias h3{	
+	margin-left: 12%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 .noticias p{
-	width: 100%;	
+	margin-left: 12%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
+
+.noticia2{
+	opacity: 0;
+	transform: translateX(-10px);
+	animation: bio 1s linear 1s 1 forwards;
+	margin-bottom: 100px;
+}
+
 .peliculas{
+	margin-top: 3%;
 	margin-left: 9%;
 	float: left;
 	width: 22%;
@@ -115,13 +129,18 @@ h3{
 	padding-right: 30px;
 	/*border: 1px red solid;*/
 }
-.Filmografia{
+/*.Filmografia{
 	text-align: center;
-	height: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
+}*/
+.peli {
+	width: 117%;
+}
+.peli2{
+	margin-left: 60px;
+	width: 60%;
 }
 .img-pelis{
 	margin: auto;
@@ -129,20 +148,22 @@ h3{
 }
 .img-pelis img{
 	width: 80%;
-	margin-top:5%; 
+	height: 230px;
 }
 .img-pelis img:hover{
 	transform: scale(1.5,1.5);
 	transition-duration: 1s;
 }
 #videos{
-	padding: 2%;
 	float: left;
-	margin-left: 8%;
-	animation: musica 1s linear 1;
+	margin-top: 40%;
 }
 #videos a{
 	color: black;
+}
+#contacto img{
+	width: 20%;
+	float:left;
 }
 .perfil img{
 	animation: bio 1s linear 1;
@@ -166,20 +187,97 @@ h2{
 
 @media(min-width: 1201px) {
 	.noticias{
-			width: 100%;
+			padding: 3% 6%;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
 		}
 
 }
 
-
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-		.peliculas{
+	/*#Home {
+		background-color: red;
+	}*/
+	.noticias{
+		padding: 3% 6%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	
+	}
+	.noticia2{
+		margin-bottom: 100px;
+
+	}
+	.noticias img{
+		margin-left: 80%;
+		margin-right: 8%;
+		padding-bottom: 3%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticias h3{	
+		margin-left: 22%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticias p{
+		margin-left: 22%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.peliculas{
 			width: 24%;
 	}
+
 }
 
 
 @media (min-width: 600px) and (max-width: 990px) {
+	/*#Home {
+		background-color: green;
+	}*/
+	.noticias{
+		padding: 3% 6%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticia2{
+		margin-bottom: 100px;
+	}
+	.noticias .img-noticia{
+		width: 60%;
+		float: left;
+	}
+
+	.noticias .contenido{
+		width: 90%;
+		float: left;
+	}
+	.noticias img{
+		margin-left: 35%;
+		padding-bottom: 3%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticias h3{	
+		margin-left: 15%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticias p{
+		margin-left: 15%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
 	#Desierto{
 		flex-wrap: wrap;
 		}
@@ -189,8 +287,53 @@ h2{
 }
 
 @media (min-width: 0px) and (max-width: 599px) {
+	/*#Home {
+		background-color: blue;
+	}*/
+	.noticias{
+	padding: 3% 6%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	}
+	.noticia2{
+	margin-bottom: 100px;
+	}
+	.noticias .img-noticia{
+		width: 70%;
+		float: left;
+	}
+	.noticias .contenido{
+		width: 100%;
+		float: left;
+	}
+	.noticias img{
+		margin-left: 26%;
+		padding-bottom: 3%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticias h3{	
+		margin-left: 20%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.noticias p{
+		margin-left: 20%;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
 	#Desierto{
 		flex-wrap: wrap;
+	}
+	#Nombre{
+		margin-right: 5px;
+	}
+	#mail{
+		margin-right: 20px;
 	}
 	.peliculas{
 		width: 60%;

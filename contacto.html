@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,19 +28,22 @@
  <div id="contenedor">
   <div id="cuerpo"> 
     <h1>Contacto</h1>
+    <div id="contacto">
+      <img src="img/contacto.jpg" alt="imagen">
+    </div>
     <div id="nombre">
       <form name="form3" method="post" action="respuesta.html">
-        <label>Nombre: </label>
+        <label>Nombre:</label>
         <input name="Nombre" type="text" required id="Nombre" placeholder="Nombre">   
-          <p><label>E-mail: </label>
-            <input type="email" name="E-mail" id="E-mail" placeholder="E-mail" required>
+          <p><label>E-mail:</label>
+            <input type="email" name="E-mail" id="mail" placeholder="E-mail" required>
           </p>
-          <p><label>Teléfono: </label>
-            <input type="tel" name="Teléfono" id="Teléfono" placeholder="Teléfono" required>
+          <p><label>Teléfono:</label>
+            <input type="tel" name="Teléfono" id="Telefono" placeholder="Teléfono" required>
           </p>
           <p><span id="spryselect2">
-          <p><label>Comentario: </label>
-            <textarea name="Comentario" rows="5" id="Comentario" placeholder="Comentario" required></textarea>
+          <p><label>Comentario:</label>
+            <textarea name="Comentario" rows="5" cols="22" id="Comentario" placeholder="Comentario"></textarea>
           </p>
           <p>
             <input type="submit" name="Enviar" id="Enviar" value="Enviar">
