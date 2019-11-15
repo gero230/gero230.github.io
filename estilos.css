@@ -139,8 +139,12 @@ html{
 	width: 117%;
 }
 .peli2{
-	margin-left: 60px;
+	margin-left: 35px;
 	width: 60%;
+}
+.peli3{
+	width:40%;
+	margin-left: 50px;
 }
 .img-pelis{
 	margin: auto;
