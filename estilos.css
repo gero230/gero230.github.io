@@ -173,6 +173,7 @@ html{
 	animation: bio 1s linear 1;
 	width: 30%;
 	float: right;
+	padding-left: 2%;
 }
 h2{
 	text-align: center;
