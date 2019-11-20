@@ -129,12 +129,6 @@ html{
 	padding-right: 30px;
 	/*border: 1px red solid;*/
 }
-/*.Filmografia{
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}*/
 .peli {
 	width: 117%;
 }
@@ -185,8 +179,14 @@ h2{
 }
 .biografia{
 	animation: bio 1s linear 1;
-	text-align: left;
 	margin-left: 5%;
+
+}
+.texto1 {
+	text-align: left;
+}
+.texto2 {
+	text-align: right;
 }
 
 @media(min-width: 1201px) {
